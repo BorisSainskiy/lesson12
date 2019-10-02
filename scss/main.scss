@@ -1,0 +1,122 @@
+#container {
+    width: 800px;
+    height: 600px;
+    background: url(../img/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#nike {
+    background-color: #111a28;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    #block1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 50px;
+
+        #logo {
+            width: 65px;
+            height: 33px;
+        }
+
+        div {
+            width:  70px;
+            display: flex;
+            justify-content: space-between;
+            align-self: center;
+            span {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                border-radius: 8px;
+                background-color: #ffffff;
+                &:hover {
+                    border: 2px solid #7e838b;
+                    cursor: pointer;
+
+                }
+            }
+        }
+
+    }
+
+    #block2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        justify-content: center;
+        h1 {
+            width: 200px;
+            height: 44px;
+            color: #e1e1e1;
+            font-family: "Museo Sans Rounded -100";
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.48px;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        p {
+            /* Style for "Unisex Ska" */
+            width: 200px;
+            height: 14px;
+            opacity: 0.54;
+            color: #e1e1e1;
+            font-family: "Museo Sans Rounded -100";
+            font-size: 16px;
+            font-weight: 100;
+            line-height: 26px;
+            letter-spacing: 0.28px;
+        }
+
+        button {
+            width: 184px;
+            height: 40px;
+            border: 1px solid #ffffff;
+            background-color: #4c525a;
+            opacity: 0.26;
+            color: #e1e1e1;
+            font-family: "Museo Sans Rounded -100";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0.28px;
+        }
+    }
+
+    select {
+        width: 69px;
+        height: 32px;
+        border: 1px solid #ffffff;
+        background-color: #111a28;
+        opacity: 0.26;
+        color: #ffffff;
+        font-family: "Museo Sans Rounded -100";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.28px;
+        margin-right: 5px;
+    }
+
+    #radio {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
