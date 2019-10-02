@@ -77,7 +77,8 @@
       line-height: 26px;
       letter-spacing: 0.48px; }
     #nike #block2 img {
-      width: 100px; }
+      width: 100px;
+      margin-top: 20px; }
     #nike #block2 p {
       /* Style for "Unisex Ska" */
       width: 200px;
@@ -100,7 +101,8 @@
       font-size: 14px;
       font-weight: 400;
       line-height: 18px;
-      letter-spacing: 0.28px; }
+      letter-spacing: 0.28px;
+      cursor: pointer; }
   #nike select {
     width: 69px;
     height: 32px;
@@ -113,7 +115,8 @@
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0.28px;
-    margin-right: 5px; }
+    margin-right: 5px;
+    cursor: pointer; }
   #nike #radio {
     display: -webkit-box;
     display: -ms-flexbox;
