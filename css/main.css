@@ -50,7 +50,7 @@
         display: inline-block;
         width: 10px;
         height: 10px;
-        border-radius: 8px;
+        border-radius: 50%;
         background-color: #ffffff; }
         #nike #block1 div span:hover {
           border: 2px solid #7e838b;
@@ -77,8 +77,10 @@
       line-height: 26px;
       letter-spacing: 0.48px; }
     #nike #block2 img {
-      width: 100px;
-      margin-top: 20px; }
+      margin-top: 20px;
+      margin-right: 140px;
+      -o-object-fit: contain;
+      object-fit: contain; }
     #nike #block2 p {
       /* Style for "Unisex Ska" */
       width: 200px;
