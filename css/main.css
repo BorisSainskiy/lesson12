@@ -31,11 +31,15 @@
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
-    margin-left: 50px; }
+    justify-content: space-around; }
     #nike #block1 #logo {
-      width: 65px;
-      height: 33px; }
+      -o-object-fit: contain;
+      object-fit: contain;
+      -ms-flex-item-align: start;
+      align-self: flex-start;
+      margin-left: 20px; }
+    #nike #block1 #bo {
+      margin-left: 50px; }
     #nike #block1 div {
       width: 70px;
       display: -webkit-box;
@@ -45,13 +49,15 @@
       -ms-flex-pack: justify;
       justify-content: space-between;
       -ms-flex-item-align: center;
-      align-self: center; }
+      align-self: center;
+      margin-left: 50px; }
       #nike #block1 div span {
         display: inline-block;
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: #ffffff; }
+        background-color: #ffffff;
+        border: 2px solid #111a28; }
         #nike #block1 div span:hover {
           border: 2px solid #7e838b;
           cursor: pointer; }
